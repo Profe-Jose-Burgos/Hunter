@@ -1,0 +1,57 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hello", "Good day", "Good afternoon", "Hi", "Howdy", "Somebody there", "Salutations", "Goodnight", "greetings"],
+         "responses": ["Hello in what can we help you with", "Greetings in what can I aid you today", "Greetings in what can i be of service today"]
+         "context_set": ""    
+        },
+        {"tag": "name",
+         "patterns": ["What is your name", "Can you give me your name", "whats ur name", "who are you"],
+         "responses": ["My name is Hunter and i am your personal asistant", "My name is Hunter and I will be your assistant today"]
+        },
+        {"tag": "schedule",
+         "patterns": ["When do you open", "are you open right now", "what are your hours", "what is your schedule"],
+         "responses": ["We open Monday to Saturday from 9 AM to 8 PM"]
+        },
+        {"tag": "state",
+         "patterns": ["Where is my order", "has my order arrived", "is my order here yet"],
+         "responses": ["Please allow me your order number and I will check on its status"]
+        },
+        {"tag": "ordernum",
+         "patterns": ["1540", "1579", "1546", "1598"],
+         "responses": ["Your order has arrived in our office", "Your order is on the way"]
+        },
+        {"tag": "send",
+         "patterns": ["i want to mail a package", "i need to send some products", "i want to send some documents", "i need to send a package"],
+         "responses": ["In order to send a package, refer yourself to your nearest location, provide me your province and I will tell you which office is closest to you"]
+        },
+        {"tag": "location",
+         "patterns": ["Where is your office", "where can i find you guys", "where are you located"],
+         "responses": ["Please tell me your province and I will tell you our locations"]
+        },
+        {"tag": "Panama",
+         "patterns": ["Panama", "I live in Panama", "Im from Panama"],
+         "responses": ["We have three locations: Centennial Plaza, Atrio Mall and Metromall"]
+        },
+        {"tag": "Chiriqui",
+         "patterns": ["Chiriqui", "I live in Chiriqui"],
+         "responses": ["We have one location in David in front of the Aranjuez hotel"]
+        },
+        {"tag": "Others1",
+         "patterns": ["Los Santos", "Veraguas", "Bocas del toro", "ngabe bugle", "Herrera"],
+         "responses": ["Unfortunately we have no locations in your province, your closest location is in David in front of the Aranjuez hotel"]
+        },
+        {"tag": "Others2",
+         "patterns": ["Darien", "Colon", "Panama Oeste", "Guna Yala", "Embera"],
+         "responses": ["Unfortunately we have no locations in your province, your closest locations are in Panama which are in Metromall, Centennial Plaza or Atrio Mall"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["goodbye", "bye", "farewell"],
+         "responses": ["Come back soon", "See you later", "Goodbye"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thank you so much", "thanks", "thank you"],
+         "responses": ["Always glad to help", "Youre welcome always happy to help", "Its my pleasure"]
+        }
+   ]
+}
+
